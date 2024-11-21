@@ -13,7 +13,6 @@ jQuery(document).ready(function($) {
             fade: true,
             pauseOnDotsHover:true,
             cssEase:'linear',
-           // fade:true,
             draggable:false,
             prevArrow:'<button class="PrevArrow"></button>',
             nextArrow:'<button class="NextArrow"></button>', 
@@ -72,21 +71,16 @@ jQuery(document).ready(function($) {
 
         var contentSection = $('.content-section, .main-banner');
         var navigation = $('nav');
-        
-        //when a nav link is clicked, smooth scroll to the section
         navigation.on('click', 'a', function(event){
-            event.preventDefault(); //prevents previous event
+            event.preventDefault();
             smoothScroll($(this.hash));
         });
         
-        //update navigation on scroll...
         $(window).on('scroll', function(){
             updateNavigation();
         })
-        //...and when the page starts
         updateNavigation();
         
-        /////FUNCTIONS
         function updateNavigation(){
             contentSection.each(function(){
                 var sectionName = $(this).attr('id');
