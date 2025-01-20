@@ -1,0 +1,44 @@
+.body{
+    background-image: url(img/YiQing&Lanyi.png);
+}
+.logo {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    line-height: 100px;
+    background-color: #45489a;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid rgba(250,250,250,0.5);
+}
+
+.nav{
+    background-color: greenyellow;
+    text-align: right;
+
+}
+
+.nav-p{
+    color: white;
+}
+
+.home {
+
+}
+
+.home-leftside{
+    width : 40%;
+
+}
