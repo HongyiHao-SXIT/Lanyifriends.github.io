@@ -1,4 +1,4 @@
-.body{
+body{
     background-image: url(img/YiQing&Lanyi.png);
 }
 .logo {
@@ -40,5 +40,12 @@
 
 .home-leftside{
     width : 40%;
+
+}
+
+.lanyiintro {
+    height: 30%;
+    width: auto;
+    
 
 }
